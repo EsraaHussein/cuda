@@ -1,0 +1,399 @@
+body{
+    font-family: 'Titillium Web', sans-serif;
+    color: #ffffff;
+    margin: 0px;
+    padding: 0px;
+    direction: ltr;    
+}
+.clear{
+    clear: both;
+}
+.section{
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+}
+.section h2{
+    font-weight: bold;
+    text-align: center;
+    font-size: 40px;
+}
+h1,h2,h3,p{
+    margin-top: 0px;
+}
+/*Hero Section Starts*/
+.heroSection{
+    padding: 71px 0px 145px 0px;
+    background: #87509c;   
+}
+.container{
+    width: 1100px;
+    margin: 0 auto;
+}
+.logo{
+    width: 50%;
+    float: left;   
+}
+.menu{
+    width: 50%;
+    float: right;
+}
+.menu ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin-left:44px;
+}
+.menu ul li a{
+    color: #f7f3ea;
+    font-size: 16px;
+    text-decoration: none;
+}
+.menu ul{
+    text-align: right;
+}
+.menu ul li a:hover{
+    text-decoration: underline;
+}
+.menu ul li:first-child{
+    margin-left: 0px;
+}
+.heroDesc{
+    text-align: center;
+    padding-top:154px;
+}
+.heroDesc h1{
+    width: 100%;
+    font-size: 42.16px;
+    font-weight: bold;
+    color: #f7f3ea;
+    margin-bottom: 63px;
+    box-sizing: border-box;
+}
+.heroLink{
+    width: 293px;
+    height: 70px;
+    line-height: 70px;
+    display: inline-block;
+    background:#eb7d4b ;
+    text-align: center;
+    border-radius:6px;
+    font-size: 18px;
+    font-weight: 600px;
+    text-decoration: none;
+    color: #ffffff;
+    transition-duration: .2s; 
+}
+.heroLink:hover{
+    background: #f76929; 
+    transition-duration: .2s;   
+} 
+/*Hero Section ends*/
+/*Services Section starts*/
+.services{
+    padding: 120px 0px 132px 0px;
+    background: #17c2a4; 
+}
+.services h2{
+    margin-bottom: 53px;   
+}
+.services p{
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 88px;
+}
+.row{
+    width: 100%;
+    height: auto;      
+}
+.servicesTypes{
+    width: 25%;
+    height: auto;
+    float: left;  
+    text-align: center;
+}
+.servicesDesc{
+  padding-top: 63px;
+  box-sizing: border-box;
+}
+.servicesDesc h3{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 28px;
+}
+.servicesDesc p{
+    font-size: 16px;
+    font-weight:300px;
+}
+/*Services Section ends*/
+/*Team section starts*/
+
+.team{
+    background: #e7f1f8;
+    color: #3c4761;
+    padding: 120px 0px 128px 0px;
+    text-align: center;
+}
+.team h2{
+    font-size: 41.29px;
+    margin-bottom: 57px;
+}
+.teamDes{
+    display: inline-block;
+    font-size: 18.58px;
+    margin-bottom: 83px;
+}
+.team .teamItem{
+    width: 100%;
+    height: auto;    
+}
+ .teamMembers{
+    width: 25%;
+    float: left;
+    text-align: center;
+}
+.teamMembers img{
+width: 222px;
+height: 222px;
+border-radius: 50%
+}
+.teamInformation{
+    font-size: 16px;
+    margin-top: 10px;
+}
+.teamInformation h3{
+    color: #3c4761;
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 0px;
+    transition-delay: .2s;
+}
+
+.teamInformation h3:hover{
+    color:#27283d;
+    transition-delay: .2s;
+}
+
+.teamInformation span{
+color: #48c1e9;
+font-size: 16px;
+display: inline-block;
+margin-bottom: 25px;
+}
+.teamInformation p{
+    font-weight: 300px;  
+}
+.teamSocial{
+    width: 100%;
+    height: auto;
+    padding-top: 20px;
+    box-sizing: border-box; 
+    float:left;     
+}
+.teamSocial .socialLink {
+    width: 32px;
+    height: 32px;
+    line-height:32px;
+    border-radius: 50%;
+    text-align: center;
+    display: inline-block;
+    color:#ffffff;
+    background: #bdd1df;
+    font-size: 16px;
+    margin-left: 12px;
+    transition-duration: .2s;
+}
+.teamSocial .socialLink:first-child{
+    margin-left: 0px;   
+}
+.teamSocial .socialLink:hover{
+    background: #48c1e9;
+    transition-duration: .2s;
+}
+
+/*Team section ends*/
+/*Portfolio Section starts*/
+
+.portfolio{
+    background:#ffdd99;
+    color: #393939;
+    padding: 116px 0px 110px 0px; 
+    text-align: center;
+}
+.portfolio h2{
+    margin-bottom: 55px;
+}
+.portfolio p{
+    margin-bottom: 89px;
+}
+.portfolio .rowOne,.portfolio .rowTwo{
+    width: 100%;
+    height: auto;
+}
+.portfolio .rowTwo{
+    margin-bottom: 145px;
+    padding-top: 68px;
+    box-sizing: border-box;
+}
+.portfolio  .leftSide{
+    widows: 50%;
+    float: left;
+}
+.portfolio .rightSide{
+    widows: 50%;
+    float: right;
+}
+.portfolio span{
+    display: inline-block;
+    font-size: 18px;
+}
+.portfolioBtn{
+    background: #17c2a4; 
+    transition-delay: .2s;  
+} 
+.portfolioBtn:hover{
+    background: #1b8f7b; 
+    transition-delay: .2s;   
+} 
+/*Portfolio Section ends*/
+/*Coments Section starts*/
+.comments{
+    background:#d74680;
+    color: #ffffff;
+    padding: 120px 0px 135px 0px; 
+    text-align: center;
+}
+.comments h2{
+    font-size: 40px;
+}
+.comments span{
+    font-size: 18px;   
+}
+.One,.Two{
+    width: 100%;
+    height: auto; 
+    box-sizing: border-box; 
+}
+.one{
+    margin-top: 72px;
+    margin-bottom: 150px;
+}
+.left{
+    width: 50%;
+    float: left;
+}
+.poeple img{
+    width: 99px;
+    height: 99px;
+    border-radius: 50%;
+    float: left;
+    margin-top:14px;  
+}
+.opinion{
+    width: calc(100% - 99px);
+    float: right; 
+    text-align:left;  
+    padding-left: 49px;
+    box-sizing: border-box;  
+}
+.right{
+    width:50%;
+    float: right;
+}
+.opinion p{
+    font-size: 21px;
+    font-style: italic;
+}
+.opinion h3{
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 0px;
+}
+.opinion span{
+   color: #ffdd99;
+   font-size: 18px;
+}
+/*Coments Section ends*/
+/*LogIn Section starts*/
+
+.logIn{
+    background: #3c5499;
+    padding: 120px 0px 115px 0px;
+    color:#ffffff; 
+    text-align: center;
+}
+.logIn span{
+    font-size: 18px;
+}
+.loginForm{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding-top: 81px; 
+    box-sizing: border-box;
+    color:#ffffff;  
+}
+.loginInput{
+    width: 414px;
+    height: 56px;
+    background: #273a71;
+    color:white;  
+    outline: 0px;
+    border: 0px;
+    padding-left: 25px;
+    box-sizing: border-box;
+    margin-bottom: 27px;
+    font-size: 18px; 
+    border-radius: 6px;
+}
+.loginInput[type="text"]{
+    margin-right: 28px;
+}
+.smsInput{
+    width: 859px;
+    height: 200px;
+    margin-bottom:59px;
+    padding-top: 28px;
+    box-sizing: border-box;
+    color: white;
+    resize: none;
+}
+.loginBtn{
+    width: 295px;
+    height: 70px;
+    line-height: 70px;
+    background: #30bae7;
+    border-radius:6px;
+    font-size: 18px;
+    font-weight: 600px;
+    transition-duration: 0.2s
+}
+.loginBtn:hover{
+background:  #273a71;
+transition-duration: 0.2s
+}
+/*LogIn Section ends*/
+/*footer starts*/
+
+footer{
+    width: 100%;
+    background: #344b8e;
+    height: 112px;
+    line-height: 112px;
+    color: #ffffff;
+    text-align: center;
+}
+footer .container a{
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 600px;
+    text-decoration: none;
+    display: inline-block;
+    margin-left:57px;    
+}
+footer .container a:first-child{
+    margin-left:0px;
+}
+footer .container a:hover{
+    color:#30bae7;
+}
+/*footer ends*/
